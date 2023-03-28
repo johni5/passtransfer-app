@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:id="@+id/mainTopLayout"
+    tools:context=".ConnectActivity">
+
+    <com.del.pst.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.del.pst.camera.GraphicOverlay
+            android:id="@+id/graphicOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.del.pst.camera.CameraSourcePreview>
+
+    <TextView
+        android:id="@+id/connectionInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/main_color_3"
+        android:text="http://host" />
+
+
+
+</RelativeLayout>

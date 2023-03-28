@@ -1,0 +1,78 @@
+<resources>
+    <string name="WS_PROTOCOL">https</string>
+    <string name="WS_HOST">passt.site</string>
+<!--    <string name="WS_HOST">z34407.adman.cloud</string>-->
+    <string name="WS_PORT">80</string>
+
+    <string name="app_name">Pass Transfer</string>
+    <string name="action_settings">Настройки</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="list_fragment_label">Список</string>
+    <string name="add_fragment_label">Новая запись</string>
+    <string name="next">Next</string>
+    <string name="btn_add">Добавить</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="filter">Фильтр</string>
+    <string name="view_fragment_label">Просмотр</string>
+    <string name="f_name">Название</string>
+    <string name="f_value1">Значение 1</string>
+    <string name="f_value2">Значение 2</string>
+    <string name="f_value3">Значение 3</string>
+    <string name="txt_view">Название параметра</string>
+    <string name="title_activity_connect">Подключение</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="ok">OK</string>
+    <string name="dialog_header">Pass Transfer</string>
+    <string name="exit_question">Вы действительно хотите закрыть приложение?</string>
+    <string name="YES">"Да"</string>
+    <string name="NO">"Нет"</string>
+    <string name="no_any_permission">This application cannot run because it does not have the any permissions.  The application will now exit.</string>
+    <string name="action_connect">Подключение</string>
+    <string name="action_code">Ввести код</string>
+    <string name="input_code">Код</string>
+    <string name="btn_code">Сохранить</string>
+    <string name="required">Поле не может быть пустым</string>
+    <string name="btn_exit">Закрыть</string>
+    <string name="pass_gen_useDigits">Цифры</string>
+    <string name="pass_gen_group">Параметры генератора паролей</string>
+    <string name="pass_gen_usePunctuation">Пунктуация</string>
+    <string name="pass_gen_useUpper">Верхний регистр</string>
+    <string name="pass_gen_useLower">Нижний регистр</string>
+    <string name="pass_gen_size">Длина пароля</string>
+    <string name="btn_back">Закрыть</string>
+    <string name="set_common">Общие</string>
+    <string name="set_app_name">Имя устройсва</string>
+    <string name="btn_add_field">Добавить поле</string>
+    <string name="generate">Генерировать пароль</string>
+    <string name="douplicate">Поле с таким названием уже используется</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="clear">Очистить</string>
+    <string name="action_clear_buffer">Очистить буфер</string>
+    <string name="action_import">Импорт</string>
+    <string name="btn_apply">Применить</string>
+    <string name="action_test">Test</string>
+    <string name="set_session_timeout">Время простоя (в минутах)</string>
+    <string name="action_export">Экспорт</string>
+    <string name="OK">OK</string>
+    <string name="permission_storage_rationale">Для сохранения данных требуется доступ к внешнему хранилищу</string>
+    <string name="action_clear_all">Удалить все</string>
+    <string name="question_clear_all">Все данные будут удалены. Вы желаете продолжить?</string>
+    <string name="no_secure_msg">Хранение личной информации в данной версии Android может быть не безопасным!</string>
+    <string name="action_info">Помощь</string>
+    <string-array name="value_names">
+        <item>Логин</item>
+        <item>Пароль</item>
+        <item>Сайт</item>
+        <item>Ключ</item>
+        <item>Номер</item>
+        <item>Телефон</item>
+        <item>Почта</item>
+        <item>Описание</item>
+        <item>Напоминание</item>
+    </string-array>
+
+</resources>

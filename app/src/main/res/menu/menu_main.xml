@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.del.pst.MainActivity">
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="0"
+        android:title="@string/action_info"
+        android:icon="@drawable/ic_baseline_info_24"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_connect"
+        android:orderInCategory="1"
+        android:title="@string/action_connect"
+        android:icon="@drawable/ic_connection_disabled"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_code"
+        android:orderInCategory="2"
+        android:title="@string/action_code"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_buffer"
+        android:orderInCategory="4"
+        android:title="@string/action_clear_buffer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_import"
+        android:orderInCategory="5"
+        android:enabled="false"
+        android:title="@string/action_import"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_export"
+        android:orderInCategory="6"
+        android:enabled="false"
+        android:title="@string/action_export"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_all"
+        android:orderInCategory="7"
+        android:enabled="false"
+        android:title="@string/action_clear_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test"
+        android:orderInCategory="10"
+        android:title="@string/action_test"
+        android:visible="false"
+        app:showAsAction="never" />
+</menu>
