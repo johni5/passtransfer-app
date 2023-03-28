@@ -1,2 +1,3 @@
 # passtransfer-app
-Passwor save and transfer manager
+Save and transfer password and personal data manager
+https://passt.site/
